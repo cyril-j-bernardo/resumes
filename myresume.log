@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9) (preloaded format=xelatex 2016.8.31)  16 SEP 2016 22:14
+This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9) (preloaded format=xelatex 2016.10.7)  7 OCT 2016 09:26
 entering extended mode
 **./myresume.tex
 (myresume.tex
@@ -639,6 +639,7 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \titlewidthfirst=\dimen163
 ))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
 \fancy@headwidth=\skip52
 \f@ncyO@elh=\skip53
 \f@ncyO@erh=\skip54
@@ -860,27 +861,27 @@ File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 LaTeX Font Warning: Font shape `EU1/Lato-Bol(0)/bx/n' undefined
 (Font)              using `EU1/Lato-Bol(0)/m/n' instead on input line 86.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 244.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 253.
 [1
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 244.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 253.
  (myresume.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 244.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 244.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 253.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 253.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 244.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 253.
  ) 
 Here is how much of TeX's memory you used:
- 22079 strings out of 428408
- 391529 string characters out of 3159514
- 425378 words of memory out of 3000000
- 25340 multiletter control sequences out of 15000+200000
- 4280 words of font info for 50 fonts, out of 3000000 for 9000
+ 22080 strings out of 428408
+ 391501 string characters out of 3159514
+ 426470 words of memory out of 3000000
+ 25343 multiletter control sequences out of 15000+200000
+ 4264 words of font info for 48 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
- 53i,11n,107p,10497b,516s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 53i,11n,107p,10497b,520s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on myresume.pdf (1 page).
