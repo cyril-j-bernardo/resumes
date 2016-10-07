@@ -1,0 +1,249 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.2 (16/9/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[]{deedy-resume-openfont}
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{}{Cyril Jerome Bernardo}{ \urlstyle{same}\href{www.linkedin.com/in/cyrilbernardo}{www.linkedin.com/in/cyrilbernardo}\\
+\href{mailto:cyril.j.bernardo@gmail.com}{cyril.j.bernardo@gmail.com}| 718.704.7653 
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{New York University}
+\descript{M.S. Mechanical Engineering}
+\location{Expected May 2017 | Brooklyn, NY \\ Cum. GPA: 3.47/4.0}
+Fluid Dynamics \& Thermal Systems \\
+Controls \& Dynamic Systems
+
+\sectionsep % Some whitespace after the section
+
+\descript{B.S. Mechanical Engineering}
+\location{Minor in Aerospace Engineering \\ Expected May 2017 | Brooklyn, NY \\ Cum. GPA: 3.49/4.0}
+\sectionsep
+
+\section{Awards}
+Dean's List\\
+Promise Scholar\\
+Who's Who Among Students Nominee\\
+Theta Tau Foundation Scholarship
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\section{Coursework}
+%\subsection{Graduate}
+%Convective Heat Transfer\\
+%Linear Control Theory\\
+%Simulation Tools for Robotics\\
+%Transport Phenomena\\
+%\sectionsep
+%
+%\subsection{Undergraduate}
+%Aerodynamics\\
+%Aerospace Propulsion\\
+%Aircraft Flight Mechanics\\
+%Finite Element Analysis\\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LEADERSHIP
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Leadership}
+
+\subsection{NASA PAXC}
+Director of Communications, 2016\\
+\sectionsep
+
+\subsection{Theta Tau at NYU}
+
+Founding President, 2014-2016 \\
+New Member Educator, 2015 \\
+\sectionsep
+
+\subsection{Student Activities}
+\descript{Student Council}
+Ext. Programming Chair, 2015\\
+Secretary, 2014 \\
+Mentor, 2013-2015\\
+\descript{New Student Orientation}
+Intern/Captain, 2015\\
+Leader, 2013-2014
+\sectionsep
+
+\subsection{IFA at NYU}
+Vice President, 2015\\
+Music Director, 2014-2015\\
+Jr. Music Chair, 2013\\
+Sophomore Representative, 2013
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+
+\subsection{Programming}
+
+MATLAB \textbullet{}  Python \textbullet{} Arduino
+
+\sectionsep
+
+\subsection{Software}
+Simulink \textbullet{} Git \textbullet{} LabVIEW \textbullet{}\\
+Creo Parametric \textbullet{} SolidWorks \textbullet{}\\ 
+COMSOL Multiphysics \textbullet{}  ANSYS
+
+
+\sectionsep % Some whitespace after the section
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+
+\runsubsection{NASA Johnson Space Center}
+\descript{| Engineering Intern }
+\location{Aug 2016 - Present | Houston, TX}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Support International Space Station communication with Mission Control through rapid prototyping and simulation of acoustic diverters designed in Creo
+\item Develop optimization acoustic simulations in COMSOL for audio transmission in extravehicular activity space suits
+\item Reconfigure mechanical design of radiation beam degrader allowing a modular configuration of HDPE
+\item Devise logic in Arduino and GUI in LabVIEW for radiation beam degrader
+\item Organize inter-center communications across the agency as the Director of Communications of the Pathways Agency Cross-Center Connect network
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Warby Parker}
+\descript{| Applied Research Intern }
+\location{Jun 2016 - Aug 2016 | New York, NY}
+\begin{tightemize}
+\item Warby Parker was named "2015's Most Innovative Company" by Fast 
+\item Consulted with company stakeholders to determine the potential of physical technology to improve quality control, customer experience, etc.
+\item Developed computer vision algorithms in Python 
+\item Prototyped wireless wearable technology with Arduino-compatible parts and processed data real time in Python
+\item Collaborated with a senior research to conduct a company-wide study evaluating trends in frame fit and facial features
+\item Devised and piloted an executive-approved program that integrates current company technologies
+\end{tightemize}
+\sectionsep
+
+\runsubsection{SpaceX Hyperloop Pod Competition}
+\descript{| CFD Analyst}
+\location{Feb 2016 - May 2016 | Brooklyn, NY}
+\begin{tightemize}
+\item Worked on an interdisciplinary team of NYU engineering students and placed in the final round of SpaceX's Hyperloop Competition
+\item Used ANSYS Fluent to test air bearing subsystem iterations of air distribution grids to achieve a 1mm-thick air bearing between pod and housing tube
+\item Guided underclassmen on the design of test iterations and consulted on correct assumptions for successful simulations
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Mt. Sinai Icahn School of Medicine}
+\descript{| Project Contributor}
+\location{Sep 2015 - May 2016 | Manhattan, NY}
+\begin{tightemize}
+\item Collaborated with other NYU engineering students to improve the process of harvesting fly embryos by 300{\% }for more frequent care of cancer patients
+\item Preliminarily validated design ideas using concepts of fluid dynamics and material properties to ensure safe transport of sensitive fly embryos
+\item Built the distribution axis system combining 3-D printed distributor head, linear rails, limit switches, belts, pulleys, and motors
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Particle, Interface and Fluids Lab}
+\descript{| Graduate Researcher}
+\location{Jan 2015 - Jun 2015 | Brooklyn, NY}
+\begin{tightemize}
+\item Designed and benchmarked simulations--using COMSOL Multiphysics--of two concentric microcapillaries ejecting immiscible fluids
+\item Observed the behavior of jet droplet breakup through varying: geometries, Weber numbers, and Capillary numbers
+\end{tightemize}
+\sectionsep
+
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}
