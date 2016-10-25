@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9) (preloaded format=xelatex 2016.8.31)  12 OCT 2016 16:26
+This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9) (preloaded format=xelatex 2016.10.7)  18 OCT 2016 09:36
 entering extended mode
 **./myresume.tex
 (myresume.tex
@@ -639,6 +639,7 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \titlewidthfirst=\dimen163
 ))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
 \fancy@headwidth=\skip52
 \f@ncyO@elh=\skip53
 \f@ncyO@erh=\skip54
@@ -875,10 +876,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 253.
  ) 
 Here is how much of TeX's memory you used:
- 22076 strings out of 428408
- 391431 string characters out of 3159514
- 426378 words of memory out of 3000000
- 25339 multiletter control sequences out of 15000+200000
+ 22080 strings out of 428408
+ 391501 string characters out of 3159514
+ 426470 words of memory out of 3000000
+ 25343 multiletter control sequences out of 15000+200000
  4264 words of font info for 48 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
  53i,11n,107p,10497b,520s stack positions out of 5000i,500n,10000p,200000b,50000s
